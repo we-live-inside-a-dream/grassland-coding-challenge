@@ -14,6 +14,7 @@ import {RouterModule} from '@angular/router';
 import {MatMenuModule} from '@angular/material/menu';
 import {AppRoutingModule} from './app-routing.module';
 import {APP_BASE_HREF, HashLocationStrategy, LocationStrategy} from '@angular/common';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   imports: [
@@ -29,7 +30,8 @@ import {APP_BASE_HREF, HashLocationStrategy, LocationStrategy} from '@angular/co
     MatToolbarModule,
     MatButtonModule,
     RouterModule,
-    MatMenuModule
+    MatMenuModule,
+    MatFormFieldModule,
   ],
   declarations: [
     AppComponent,
