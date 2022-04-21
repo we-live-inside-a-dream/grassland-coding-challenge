@@ -5,3 +5,17 @@
   width: 100%;
   justify-content: center;
 }
+.sortBy{
+  display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    grid-gap: 20px;
+}
+.rows:nth-child(2n){
+  background-color: #FAFAFA;
+}
+.last-calumn{
+  text-align: right;
+}
+tr.rows.color{
+  background-color: #31BF5D;
+}
